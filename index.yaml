@@ -3,6 +3,24 @@ entries:
   ackee:
   - apiVersion: v2
     appVersion: 3.2.0
+    created: "2022-12-08T10:19:13.07429357Z"
+    description: A Helm chart for Ackee analytics tool
+    digest: e74f192957498b55560c93de44863ef698ae8a30e054d9b554fe2572764fdca9
+    home: https://github.com/suda/charts/tree/main/charts/ackee
+    kubeVersion: ^1.19.0-0
+    maintainers:
+    - email: admin@suda.pl
+      name: suda
+      url: https://suda.pl
+    name: ackee
+    sources:
+    - https://github.com/suda/charts/tree/main/charts/ackee
+    type: application
+    urls:
+    - https://github.com/Phaoll/charts/releases/download/ackee-0.2.2-rc6/ackee-0.2.2-rc6.tgz
+    version: 0.2.2-rc6
+  - apiVersion: v2
+    appVersion: 3.2.0
     created: "2022-12-08T10:13:37.82456276Z"
     description: A Helm chart for Ackee analytics tool
     digest: 84ca67d0982daad251011f229d6f7a027dd329a672c971974ad3a84b255fb675
@@ -145,4 +163,4 @@ entries:
     urls:
     - https://github.com/Phaoll/charts/releases/download/ackee-0.2.2-rc0/ackee-0.2.2-rc0.tgz
     version: 0.2.2-rc0
-generated: "2022-12-08T10:13:37.824624861Z"
+generated: "2022-12-08T10:19:13.07446087Z"
